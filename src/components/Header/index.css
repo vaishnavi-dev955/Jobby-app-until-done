@@ -1,0 +1,135 @@
+@media screen and (max-width: 576px) {
+  .small-medium-view {
+    background-color: #272727;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+  .icons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+  .Home-icon {
+    height: 30px;
+    width: 30px;
+    color: #ffffff;
+    padding-right: 10px;
+  }
+  .Brief-case-icon {
+    height: 30px;
+    width: 30px;
+    color: #ffffff;
+    padding-right: 10px;
+  }
+  .Logout-icon {
+    height: 30px;
+    width: 30px;
+    color: #ffffff;
+    padding-right: 10px;
+  }
+  .Logout-button {
+    display: none;
+  }
+
+  .website-logo-style1 {
+    height: 40px;
+    width: 100px;
+  }
+  .medium-view {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .small-medium-view {
+    background-color: #272727;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+  .icons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+  .Home-icon {
+    height: 30px;
+    width: 30px;
+    color: #ffffff;
+    padding-right: 10px;
+  }
+  .Brief-case-icon {
+    height: 30px;
+    width: 30px;
+    color: #ffffff;
+    padding-right: 10px;
+  }
+  .Logout-icon {
+    height: 30px;
+    width: 30px;
+    color: #ffffff;
+  }
+  .website-logo-style1 {
+    height: 40px;
+    width: 100px;
+  }
+  .medium-view {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .small-medium-view {
+    display: none;
+  }
+
+  .medium-view {
+    background-color: #272727;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .icons-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Home-para {
+    color: #f1f5f9;
+    font-size: 30px;
+    font-family: 'Roboto';
+    align-self: center;
+    padding-right: 20px;
+  }
+  .Jobs-para {
+    color: #f1f5f9;
+    font-size: 30px;
+    font-family: 'Roboto';
+    align-self: center;
+    padding-right: 20px;
+  }
+
+  .Logout-button {
+    height: 50px;
+    width: 150px;
+    background-color: #6366f1;
+    color: #f1f5f9;
+    font-size: 20px;
+    font-family: 'Roboto';
+    border: 0px solid;
+    border-radius: 10px;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    margin-left: 250px;
+  }
+  .website-logo-style2 {
+    height: 80px;
+    width: 200px;
+    margin-right: 500px;
+  }
+}

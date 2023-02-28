@@ -1,0 +1,114 @@
+@media screen and (max-width: 576px) {
+  .main-container {
+    height: 200vh;
+  }
+  .Home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+  }
+  .Home-heading {
+    color: #f1f5f9;
+    font-size: 25px;
+    font-family: 'Roboto';
+    padding-left: 50px;
+  }
+  .Home-paragraph {
+    color: #f1f5f9;
+    font-size: 20px;
+    padding-left: 50px;
+  }
+  .Find-jobs-button {
+    height: 30px;
+    width: 120px;
+    background-color: #6366f1;
+    font-size: 15px;
+    border: 0px solid;
+    border-radius: 5px;
+    color: #f1f5f9;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .main-container {
+    height: 200vh;
+  }
+  .Home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+  }
+  .Home-heading {
+    color: #f1f5f9;
+    font-size: 25px;
+    font-family: 'Roboto';
+    padding-left: 50px;
+  }
+  .Home-paragraph {
+    color: #f1f5f9;
+    font-size: 20px;
+    padding-left: 50px;
+  }
+  .Find-jobs-button {
+    height: 30px;
+    width: 120px;
+    background-color: #6366f1;
+    font-size: 15px;
+    border: 0px solid;
+    border-radius: 5px;
+    color: #f1f5f9;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    height: 200vh;
+    background-color: #000000;
+  }
+  .Home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    width: 100vw;
+    height: 90vh;
+    background-size: color;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+  }
+  .Home-heading {
+    color: #f1f5f9;
+    font-size: 60px;
+    font-family: 'Roboto';
+    padding-left: 50px;
+  }
+  .Home-paragraph {
+    color: #f1f5f9;
+    font-size: 40px;
+    padding-left: 50px;
+  }
+  .Find-jobs-button {
+    height: 50px;
+    width: 180px;
+    background-color: #6366f1;
+    font-size: 20px;
+    border: 0px solid;
+    border-radius: 10px;
+    color: #f1f5f9;
+    margin-left: 50px;
+  }
+}
