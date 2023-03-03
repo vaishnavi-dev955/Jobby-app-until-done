@@ -1,18 +1,27 @@
 import './index.css'
-import {Link} from 'react-router-dom'
+import {withRouter, Link} from 'react-router-dom'
+import Cookies from 'js-cookie'
 import {BsFillBriefcaseFill} from 'react-icons/bs'
 import {AiFillHome} from 'react-icons/ai'
 import {FiLogOut} from 'react-icons/fi'
 
-const Header = () => {
+const Header = props => {
+  const onClickLogOutButton = () => {
+    const {history} = props
+    history.replace('/login')
+    Cookies.remove('jwt_token')
+  }
+
   const SmallView = () => (
     <div>
       <div className="small-medium-view">
-        <img
-          src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-          className="website-logo-style1"
-          alt="website logo"
-        />
+        <Link to="/">
+          <img
+            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
+            className="website-logo-style1"
+            alt="website logo"
+          />
+        </Link>
         <div className="icons-container">
           <Link to="/">
             <AiFillHome className="Home-icon" />
@@ -23,17 +32,25 @@ const Header = () => {
       </div>
 
       <div className="medium-view">
-        <img
-          src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-          className="website-logo-style2"
-          alt="website logo"
-        />
+        <Link to="/">
+          <img
+            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
+            className="website-logo-style2"
+            alt="website logo"
+          />
+        </Link>
         <div className="icons-container2">
           <Link to="/">
             <p className="Home-para">Home</p>
           </Link>
-          <p className="Jobs-para">Jobs</p>
-          <button type="button" className="Logout-button">
+          <Link to="/jobs">
+            <p className="Jobs-para">Jobs</p>
+          </Link>
+          <button
+            type="button"
+            className="Logout-button"
+            onClick={onClickLogOutButton}
+          >
             Logout
           </button>
         </div>
@@ -43,4 +60,4 @@ const Header = () => {
   return <nav>{SmallView()}</nav>
 }
 
-export default Header
+export default withRouter(Header)

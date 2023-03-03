@@ -1,0 +1,147 @@
+.overall-container-jobs {
+  background-color: #000000;
+  height: 100%;
+}
+
+.Medium-view {
+  background-color: #000000;
+  height: 150vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.Profile-view {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  height: 28vh;
+  width: 45vh;
+  background-size: cover;
+  border-radius: 30px;
+  margin-left: 16px;
+  margin-top: 10px;
+}
+
+.profile-style {
+  height: 80px;
+  width: 80px;
+  padding-left: 15px;
+  padding-top: 20px;
+  border-radius: 50%;
+}
+
+.profile-heading {
+  color: #6366f1;
+  font-size: 25px;
+  font-family: 'Roboto';
+  padding-left: 15px;
+}
+
+.search-logo2 {
+  color: #ffffff;
+  height: 40px;
+  width: 50px;
+}
+
+.Input-container1 {
+  background-color: #000000;
+  border: #7e858e 1px solid;
+  border-radius: 10px;
+  height: 60px;
+  width: 500px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.input-style4 {
+  height: 60px;
+  width: 300px;
+  border: 0px solid;
+  color: #7e858e;
+  font-size: 25px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 20px;
+  background-color: transparent;
+  font-family: 'Roboto';
+}
+
+.search-container3 {
+  background-color: #202020;
+  height: 56px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-para {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding-left: 15px;
+}
+
+.hr-style {
+  color: #7e858e;
+  width: 42vh;
+  margin-top: 15px;
+}
+
+.Element-Type {
+  color: #f1f5f9;
+  font-size: 25px;
+  width: 'Roboto';
+  padding-left: 25px;
+}
+
+.container1 {
+  background-color: #000000;
+  width: 50vh;
+}
+
+.retry-button {
+  color: #ffffff;
+  background-color: #6366f1;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.jobs-failure-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.failure-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.failure-paragraph {
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.failure-img {
+  width: 90%;
+  height: 350px;
+}
+
+.Search-button-list {
+  background-color: transparent;
+  height: 45px;
+  width: 55px;
+  border: 0px solid;
+}

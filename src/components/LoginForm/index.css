@@ -54,6 +54,11 @@
     margin-top: 20px;
     margin-left: 30px;
   }
+  .Error-msg {
+    color: #ff0b37;
+    font-size: 15px;
+    font-family: 'Roboto';
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -113,6 +118,11 @@
     margin-top: 20px;
     margin-left: 30px;
   }
+  .Error-msg {
+    color: #ff0b37;
+    font-size: 15px;
+    font-family: 'Roboto';
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -171,5 +181,10 @@
     font-family: 'Roboto';
     margin-top: 20px;
     margin-left: 30px;
+  }
+  .Error-msg {
+    color: #ff0b37;
+    font-size: 18px;
+    font-family: 'Roboto';
   }
 }
